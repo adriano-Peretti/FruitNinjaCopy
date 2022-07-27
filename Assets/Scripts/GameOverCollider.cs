@@ -28,6 +28,7 @@ public class GameOverCollider : MonoBehaviour
             if (gameOverCount >= 3)
             {
                 FindObjectOfType<GameManager>().Explode();
+                gameOverCount = 0;
             }
 
         }
