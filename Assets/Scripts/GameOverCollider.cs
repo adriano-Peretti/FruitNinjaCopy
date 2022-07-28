@@ -10,8 +10,7 @@ public class GameOverCollider : MonoBehaviour
 
     private void Start()
     {
-
-        gameOverCount = 0;
+                gameOverCount = 0;
     }
     private void OnTriggerEnter(Collider other)
     {
